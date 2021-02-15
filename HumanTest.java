@@ -5,7 +5,8 @@ public class HumanTest {
 		Human player1 = new Human();
 		Human player2 = new Human();
 		player1.attack(player2);
-		
+		Samarai sam = new Samarai();
+		sam.deathBlow(player1);
 
 	}
 
