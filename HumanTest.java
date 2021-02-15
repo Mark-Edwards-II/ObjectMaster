@@ -7,7 +7,7 @@ public class HumanTest {
 		player1.attack(player2);
 		Samarai sam = new Samarai();
 		sam.deathBlow(player1);
-
+		
 	}
 
 }

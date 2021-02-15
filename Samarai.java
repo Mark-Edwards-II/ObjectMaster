@@ -1,8 +1,11 @@
 import java.lang.Math;
 public class Samarai extends Human {
 	
+	private static int numberOfSamarai = 0;
+	
 	public Samarai() {
 		this.health = 200;
+		numberOfSamarai++;
 	}
 	
 	public void deathBlow(Human target) {
